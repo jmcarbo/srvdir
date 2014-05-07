@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/inconshreveable/go-tunnel/log"
-	"github.com/inconshreveable/go-tunnel/proto"
-	"github.com/inconshreveable/go-tunnel/server"
+	"github.com/jmcarbo/go-tunnel/log"
+	"github.com/jmcarbo/go-tunnel/proto"
+	"github.com/jmcarbo/go-tunnel/server"
 	"io/ioutil"
 	"net/http"
-	srvdir_proto "srvdir/proto"
+	srvdir_proto "github.com/jmcarbo/srvdir/src/srvdir/proto"
 )
 
 type RegistrationHooks struct {

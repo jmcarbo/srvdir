@@ -1,7 +1,7 @@
 package extra
 
 import (
-	"github.com/inconshreveable/go-tunnel/proto"
+	"github.com/jmcarbo/go-tunnel/proto"
 	"runtime"
 )
 

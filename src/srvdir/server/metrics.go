@@ -2,11 +2,11 @@ package server
 
 import (
 	"github.com/inconshreveable/go-keen"
-	"github.com/inconshreveable/go-tunnel/log"
-	"github.com/inconshreveable/go-tunnel/proto"
-	"github.com/inconshreveable/go-tunnel/server"
+	"github.com/jmcarbo/go-tunnel/log"
+	"github.com/jmcarbo/go-tunnel/proto"
+	"github.com/jmcarbo/go-tunnel/server"
 	//"github.com/inconshreveable/go-tunnel/conn"
-	srvdir_proto "srvdir/proto"
+	srvdir_proto "github.com/jmcarbo/srvdir/src/srvdir/proto"
 	"time"
 )
 

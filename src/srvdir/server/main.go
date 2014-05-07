@@ -1,10 +1,10 @@
 package server
 
 import (
-	"github.com/inconshreveable/go-tunnel/log"
-	"github.com/inconshreveable/go-tunnel/server"
-	"github.com/inconshreveable/go-tunnel/server/binder"
-	tunneltls "github.com/inconshreveable/go-tunnel/tls"
+	"github.com/jmcarbo/go-tunnel/log"
+	"github.com/jmcarbo/go-tunnel/server"
+	"github.com/jmcarbo/go-tunnel/server/binder"
+	tunneltls "github.com/jmcarbo/go-tunnel/tls"
 	"time"
 )
 

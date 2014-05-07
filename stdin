@@ -1,0 +1,9 @@
+[2014/05/07 05:02:16 CEST] [INFO] (github.com/jmcarbo/go-tunnel/log.Info:91) Reading configuration file /Users/joanmarc/.srvdir
+[2014/05/07 05:02:16 CEST] [INFO] (github.com/jmcarbo/go-tunnel/log.(*TaggedLogger).Info:58) [session] Session failed: x509: certificate is valid for *.imim.es, not localhost
+[2014/05/07 05:02:16 CEST] [INFO] (github.com/jmcarbo/go-tunnel/log.(*TaggedLogger).Info:58) [session] Waiting 1 seconds before reconnecting
+[2014/05/07 05:02:17 CEST] [INFO] (github.com/jmcarbo/go-tunnel/log.(*TaggedLogger).Info:58) [session] Session failed: x509: certificate is valid for *.imim.es, not localhost
+[2014/05/07 05:02:17 CEST] [INFO] (github.com/jmcarbo/go-tunnel/log.(*TaggedLogger).Info:58) [session] Waiting 2 seconds before reconnecting
+[2014/05/07 05:02:19 CEST] [INFO] (github.com/jmcarbo/go-tunnel/log.(*TaggedLogger).Info:58) [session] Session failed: x509: certificate is valid for *.imim.es, not localhost
+[2014/05/07 05:02:19 CEST] [INFO] (github.com/jmcarbo/go-tunnel/log.(*TaggedLogger).Info:58) [session] Waiting 4 seconds before reconnecting
+[2014/05/07 05:02:23 CEST] [INFO] (github.com/jmcarbo/go-tunnel/log.(*TaggedLogger).Info:58) [session] Session failed: x509: certificate is valid for *.imim.es, not localhost
+[2014/05/07 05:02:23 CEST] [INFO] (github.com/jmcarbo/go-tunnel/log.(*TaggedLogger).Info:58) [session] Waiting 8 seconds before reconnecting

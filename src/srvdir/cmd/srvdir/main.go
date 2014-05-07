@@ -1,6 +1,6 @@
 package main
 
-import "srvdir/client"
+import "github.com/jmcarbo/srvdir/src/srvdir/client"
 
 func main() {
 	client.Main()

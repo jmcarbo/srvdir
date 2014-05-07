@@ -1,20 +1,20 @@
 .PHONY: default server client deps fmt clean all release-all release-server release-client contributors
-export GOPATH:=$(shell pwd)
+#export GOPATH:=$(shell pwd)
 
-BUILDTAGS=debug
+BUILDTAGS=release
 default: all
 
 deps:
 	go get -tags '$(BUILDTAGS)' -d -v srvdir/...
 
-server: deps
-	go install -gcflags "-N -l" -tags '$(BUILDTAGS)' srvdir/cmd/srvdird
+server: 
+	go install -gcflags "-N -l" -tags '$(BUILDTAGS)' github.com/jmcarbo/srvdir/src/srvdir/cmd/srvdird
 
 fmt:
 	go fmt srvdir/...
 
-client: deps
-	go install -gcflags "-N -l" -tags '$(BUILDTAGS)' srvdir/cmd/srvdir
+client: 
+	go install -gcflags "-N -l" -tags '$(BUILDTAGS)' github.com/jmcarbo/srvdir/src/srvdir/cmd/srvdir
 
 release-client: BUILDTAGS=release
 release-client: client

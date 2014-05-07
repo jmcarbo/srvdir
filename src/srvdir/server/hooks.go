@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/inconshreveable/go-tunnel/proto"
-	"github.com/inconshreveable/go-tunnel/server"
+	"github.com/jmcarbo/go-tunnel/proto"
+	"github.com/jmcarbo/go-tunnel/server"
 	"os"
 )
 

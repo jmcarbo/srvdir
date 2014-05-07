@@ -2,14 +2,14 @@ package client
 
 import (
 	"fmt"
-	"github.com/inconshreveable/go-tunnel"
-	"github.com/inconshreveable/go-tunnel/log"
-	"github.com/inconshreveable/go-tunnel/proto"
-	"github.com/inconshreveable/go-tunnel/tls"
+	"github.com/jmcarbo/go-tunnel"
+	"github.com/jmcarbo/go-tunnel/log"
+	"github.com/jmcarbo/go-tunnel/proto"
+	"github.com/jmcarbo/go-tunnel/tls"
 	"net"
 	"net/http"
 	"os"
-	srvdir_proto "srvdir/proto"
+	srvdir_proto "github.com/jmcarbo/srvdir/src/srvdir/proto"
 )
 
 const version = "0.1"
